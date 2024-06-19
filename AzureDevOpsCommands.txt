@@ -1,0 +1,39 @@
+Create Github account
+Login
+Create Repository (remote)
+Run git bash app on your pc
+	cd <codefolder>
+Initialize local (git) repo
+CREATE GLOBAL VARIABLES
+	git config --global user.name "ritesh"
+	git config --global user.email "riteshm1@hexaware.com"
+
+TO SYNC LOCAL WITH REMOTE
+git remote add origin <RemoteURL>
+
+MAKE CHANGES ON LOCAL
+	Create a file
+
+ADD THE FILE(S) TO THE STAGING
+	git add --all.
+	OR
+	git add .
+	OR
+	git add <filename> (FILE NAME IS CASE SENSITIVE)
+
+PUSH THE CHANGES FROM LOCAL TO GIT
+	FIRST TIME
+		git push --set-upstream origin master
+	THERE AFTER
+		git push
+
+PULL THE CHANGES FROM GIT
+	git fetch
+	git pull
+
+Git Repo link C:/AzureDevOpsPrac/.git/
+
+
+MOST IMPORTANT - TO GET THE STATUS 
+git status
+
